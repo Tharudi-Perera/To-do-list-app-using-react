@@ -1,9 +1,7 @@
 # To-do-list-app-using-react
-This is a simple and user-friendly To-Do List application built with React. It allows users to add, delete, and interact with tasks using intuitive like and dislike buttons.
+This is a simple and user-friendly To-Do List application built with React. It allows users to add, delete, and interact with tasks using intuitive like and dislike buttons. The app features a clean dark-themed interface with clearly styled buttons for better user experience. Built using React functional components and hooks like useState, it offers real-time task management and responsive UI updates. This project is perfect for anyone looking to learn React basics through a practical, hands-on project.
 
-
-📋 React To-Do List App
-A simple and interactive To-Do List built using React. This app allows users to:
+This app allows users to:
 
 ✅ Add tasks
 
