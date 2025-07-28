@@ -7,7 +7,7 @@ This app allows users to:
 
 🗑️ Delete tasks
 
-👍👎 Like or dislike tasks (for feedback or preference marking)
+⬆️ ⬇️ Move up and Down
 
 ✍️ Keep the task list organized and updated dynamically
 
