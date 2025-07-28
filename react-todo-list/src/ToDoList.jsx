@@ -6,6 +6,8 @@ function ToDoList() {
     const [task, setTask] = useState(["Eat Breakfast", "Take a Shower", "Go to Work"]);
     const [newTask, setNewTask] = useState("");
 
+    const currentDate = new Date().toLocaleDateString(); // Get current date in a readable format (MM/DD/YYYY)
+
     function handleInputChange(event) {
         setNewTask(event.target.value);
     }   
@@ -49,19 +51,23 @@ function ToDoList() {
 
         <h1>To-Do List</h1>
 
-        <div>
-            <input 
-                type="text" 
-                value={newTask} 
-                onChange={handleInputChange} 
-                placeholder="Add a new task..." 
-            />
-            <button 
-                className='add-button'
-                onClick={addTask}>
-                Add Task
-            </button>
-        </div>
+        {/* Current Date Section */}
+            <div className="date-container">
+                <span className="current-date">{currentDate}</span>
+            </div>
+    
+        {/* Task Input Section */}
+            <div className="input-container">
+                <input
+                    type="text"
+                    value={newTask}
+                    onChange={handleInputChange}
+                    placeholder="Add a new task..."
+                />
+                <button className="add-button" onClick={addTask}>
+                    Add Task
+                </button>
+            </div>
 
         <ol>
             {task.map((task, index) => (
