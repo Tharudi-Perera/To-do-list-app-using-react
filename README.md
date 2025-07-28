@@ -18,12 +18,12 @@ React functional components with hooks (useState)
 
 Dynamic task management (add/delete)
 
-Thumbs up/down buttons for task feedback
+up/down buttons for priority
 
 Clean responsive UI with styled buttons
 
 <img width="1893" height="865" alt="image" src="https://github.com/user-attachments/assets/0eef2835-6423-4b5e-b26a-15d41d0e6deb" />
 
-<img width="584" height="866" alt="image" src="https://github.com/user-attachments/assets/c8a2874c-88fa-49f0-a09f-f5dc10c85e80" />
+<img width="300" height="450" alt="image" src="https://github.com/user-attachments/assets/c8a2874c-88fa-49f0-a09f-f5dc10c85e80" />
 
 
